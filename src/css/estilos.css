@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/src/imagens/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    background-size: contain;
+    background-position:center;
+    font-family: "Poppins", sans-serif;
+}
+.content{
+  
+    margin-left: 40px;
+    align-items: flex-start;
+   display: flex;
+   align-items: flex-start;
+}
+.lado-esquerdo{
+  
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+   
+}
+.lado-esquerdo h1{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.lado-esquerdo p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.lado-direito{   
+    width: 30%;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.lado-direito .btn-try button{
+    background-color: hsl(248, 32%, 49%);
+    width: 430px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.lado-direito .btn-try button span{
+    font-weight: bold;
+}
+.lado-direito .formulario{
+    width: 350px;
+    display: block;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-right: 50px;
+}
+.lado-direito .formulario .input-box input{
+    width: 100%;           
+    padding: 12px;        
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.lado-direito .formulario .input-box input::placeholder{
+    font-weight: bold;
+}
+.lado-direito .btn-formulario{
+    background-color: hsl(154, 59%, 51%);
+    width: 360px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    margin-top: 20px;
+    box-shadow: 0 8px 6px 0px hsl(154, 72%, 45%);
+    cursor: pointer;
+}
+.lado-direito .formulario p{
+    font-size: 11px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    color: #ccc;
+}
+.lado-direito .formulario p span{
+    color: red;
+    font-weight: bold lighter;
+}
