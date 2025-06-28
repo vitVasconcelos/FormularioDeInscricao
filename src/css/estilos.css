@@ -58,7 +58,7 @@ body{
     margin-bottom: 20px;
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 8px 6px 0px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
@@ -81,9 +81,15 @@ body{
     border-radius: 5px;
     box-sizing: border-box;
     margin: 10px;
+    outline: none;
+}
+.lado-direito .formulario .input-box input:focus{
+    outline: 1px solid hsl(154, 14%, 10%);
 }
 .lado-direito .formulario .input-box input::placeholder{
-    font-weight: bold;
+    font-weight: 600;
+    color: rgba(86, 86, 86, 0.735);
+
 }
 .lado-direito .btn-formulario{
     background-color: hsl(154, 59%, 51%);
@@ -94,7 +100,7 @@ body{
     margin-bottom: 20px;
     color: #fff;
     border: none;
-    border-radius: 10px; 
+    border-radius: 5px; 
     margin-top: 20px;
     box-shadow: 0 8px 6px 0px hsl(154, 72%, 45%);
     cursor: pointer;
