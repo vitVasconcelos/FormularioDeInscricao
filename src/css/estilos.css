@@ -91,6 +91,18 @@ body{
     color: rgba(86, 86, 86, 0.735);
 
 }
+.lado-direito .formulario span{
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    display: block;            
+    text-align: right;   
+  
+}
+.lado-direito .formulario input.erro::placeholder {
+    color: red;
+    font-weight: lighter;  
+}
 .lado-direito .btn-formulario{
     background-color: hsl(154, 59%, 51%);
     width: 360px;

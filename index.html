@@ -28,12 +28,17 @@
             </div>
             <form class="formulario">
                 <div class="input-box">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="password" placeholder="Password">
+                    
+                    <input type="text" placeholder="Name" id="input-nome">
+                    <span id="nome" style="color:red"></span>
+                    <input type="text" placeholder="Last Name" id="input-sobrenome">
+                    <span id="sobrenome"></span>
+                    <input type="email" placeholder="Email Address" id="input-email">
+                    <span id="email"></span>
+                    <input type="password" placeholder="Password" id="input-senha">
+                    <span id="senha"></span>
                 </div>
-                <button class="btn-formulario">CLAIM YOUR FREE TRIAL</button>
+                <button type="submit" class="btn-formulario" onclick="verificarInputs()">CLAIM YOUR FREE TRIAL</button>
                 <P>By clicking the button, you are agreeging to our <span>Terms and Services</span></P>
             </form>
         </div>
