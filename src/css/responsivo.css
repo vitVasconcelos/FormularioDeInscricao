@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     body {
-      background-image: url("/src/imagens/bg-intro-mobile.png"); 
+      background-image: url("../imagens/bg-intro-mobile.png"); 
       background-size: cover;
       flex-direction: column;
       padding: 20px;

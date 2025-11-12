@@ -1,4 +1,3 @@
-// Espera o carregamento da página
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector(".formulario");
     const inputNome = document.getElementById("input-nome");
@@ -12,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
 
-    // Verificação ao enviar o formulário
+  
     form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Impede envio automático
+        event.preventDefault(); 
         const email = inputEmail.value.trim();
         const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
     });
 
-    // Faz a mensagem de erro sumir quando começar a digitar
+  
     inputNome.addEventListener("input", function () {
         if (inputNome.value.trim() !== "") {
             spanErroNome.innerText = "";

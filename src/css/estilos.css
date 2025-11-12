@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("/src/imagens/bg-intro-desktop.png");
+    background-image: url("../imagens/bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
     background-size: contain;
     background-position:center;
