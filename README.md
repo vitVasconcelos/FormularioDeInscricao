@@ -4,7 +4,6 @@ Este é um projeto de **formulário responsivo** com validação de campos em te
 🎯 Site feito para um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1
 Criar um formulário de inscrição moderno e funcional, validando os campos obrigatórios e melhorando a usabilidade com feedback imediato.
 
-Visite o site : https://vitvasconcelos.github.io/FormularioDeInscricao/
 
 🖥️ Prévia
 
